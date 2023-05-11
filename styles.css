@@ -1,5 +1,7 @@
 
 body {
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -27,11 +29,13 @@ a, ul{
 
 .button1 {
     border-radius: 6px;
-    border: #f9faf8;
+    border-color: #f9faf8;
     padding: 10px;
     width: 100px;
     background-color: #3882f9;
     color: white;
+    font-weight: bold;
+
 }
 
 
@@ -59,12 +63,7 @@ a, ul{
     margin: 50px;
 }
 
-.section1 {
-    adisplay: flex;
-    ajustify-content: flex-start;
-    aalign-items: flex-start;
 
-}
 
 #section1img {
     width: 400px;
@@ -83,57 +82,90 @@ a, ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 25px;
  }
 
-.section2img {
+ .section2img {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    justify-content:space-around;
     gap: 50px;
-}
+    margin-left: 250px;
 
+ }
+ 
 #img2,#img3,#img4 {
     max-width: 50%;
-    display: flex;
     border-radius: 12px;
+    border: #3882f9 solid;
 }
 
+.text2 {
+    font-size: 18px;
+    font-weight: lighter;
+    
+}
 
 .section3 {
     display: flex;
     justify-content: center;
     background-color: #e5e7eb;
-    padding: 50px;
+    padding: 150px;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic¡;
 }
 
+.quote {
+    font-style:italic;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.modal {
+    border-radius: 6px;
+    background-color: #3882f9;
+    width: 600px;
+    padding: 30px;
+    gap: 16px;
+}
 
 .section4 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-    padding: 40px;
-    background-color: #3882f9;
 }
 
 #subsection4 {
     color: white;
-    margin-left: 100px;
+    font-weight: 700;
+}
+#subsection41 {
+    color: white;
+    font-weight: 200;
+
+}
+.text4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .button2 {
     background-color: #3882f9;
     color: white;
+    border-color: white ;
     border-radius: 12px;
-    padding: 10px;
+    width: 100px;
+    padding: 8px;
     margin: auto;
 
 }
-
 
 .footer {
     display: flex;
@@ -142,4 +174,6 @@ a, ul{
     background-color:#1F2937;
     color: white;
     padding: 20px;
+    font-size: 10px;
+    font-weight: 100;
 }
